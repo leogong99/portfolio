@@ -33,7 +33,7 @@ const copyLibsPlugin = {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), copyLibsPlugin],
-  base: '/portfolio/',
+  base: '',
   build: {
     outDir: 'dist',
   }
