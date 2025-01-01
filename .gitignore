@@ -6,11 +6,6 @@ node_modules
 # Testing
 coverage
 
-# Production
-dist
-dist-ssr
-*.local
-
 # Misc
 .DS_Store
 .env.local
@@ -38,4 +33,10 @@ lerna-debug.log*
 *.sw? 
 
 # Don't ignore these files
-!dist/.nojekyll 
+!.nojekyll
+!dist/.nojekyll
+
+# Remove Jekyll-related entries as they're not needed
+# .sass-cache/
+# .jekyll-cache/
+# .jekyll-metadata 
